@@ -17,7 +17,7 @@ const LatestArticlesAllSections = () => {
                 <hr className={styles.AllSections_Header_Line}/>
             </div>
             <div className={styles.AllSections_Bottom}>
-                {  
+                {   // eslint-disable-next-line
                     technology.map(   (article,index) => {
                         if(index>=technology.length-1) {
                             return(
@@ -37,7 +37,7 @@ const LatestArticlesAllSections = () => {
                     }
                     )    
                 }
-                {  
+                {   // eslint-disable-next-line
                     fitness.map(   (article,index) => {
                         if(index>=fitness.length-1) {
                             return(
@@ -57,7 +57,7 @@ const LatestArticlesAllSections = () => {
                     }
                      )    
                 }
-                {  
+                {   // eslint-disable-next-line
                     food.map(   (article,index) => {
                         if(index>=food.length-1) {
                             return(

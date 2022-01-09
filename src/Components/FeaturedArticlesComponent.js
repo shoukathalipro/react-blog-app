@@ -16,7 +16,7 @@ const FeaturedArticlesComponent = () => {
     return(
         <div className={styles.featured_Articles_Component}>
             <div className={styles.featured_Articles_Left}>
-                    {
+                    {   // eslint-disable-next-line
                         bollywood.map(  (article, index) => {
                             if(index>=bollywood.length-1) {
                                 return(
@@ -39,7 +39,8 @@ const FeaturedArticlesComponent = () => {
             </div>
             <div className={styles.featured_Articles_Right}>
                 <div className={styles.featured_Articles_Right1}>
-                        {hollywood.map(  (article, index) => {
+                        {   // eslint-disable-next-line
+                            hollywood.map(  (article, index) => {
                             if(index>=hollywood.length-1) {
                                 return(
                                     <div key={index} className={styles.featured_Articles_Box_Small} style={   {backgroundImage: `url(${article.ImageAsset})`,
@@ -56,10 +57,12 @@ const FeaturedArticlesComponent = () => {
                                 )
                             }
                         }
-                        )}
+                        )
+                        }
                 </div>
                 <div className={styles.featured_Articles_Right2}>
-                        {technology.map(  (article, index) => {
+                        {   // eslint-disable-next-line
+                            technology.map(  (article, index) => {
                             if(index>=technology.length-1) {
                                 return(
                                     <div key={index} className={styles.featured_Articles_Box_Small} style={   {backgroundImage: `url(${technology[technology.length - 1].ImageAsset})`,
@@ -76,7 +79,8 @@ const FeaturedArticlesComponent = () => {
                                 )
                             }
                         }
-                        )}
+                        )
+                        }
                 </div>
             </div>
         </div>

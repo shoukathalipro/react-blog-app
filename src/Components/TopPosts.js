@@ -37,7 +37,7 @@ const TopPosts = () => {
                 <hr className={styles.AllSections_Header_Line}/>
             </div>
             <div className={ styles.topPosts_Bottom}>
-                {
+                {   // eslint-disable-next-line
                     tempArrFinal.map( (object, index) => {
                         if(index === 0) {
                             return(
