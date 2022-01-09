@@ -75,20 +75,11 @@
   gap: 0.8vw;
 }
 
-.featured_Articles_Left {
-}
-
 .featured_Articles_Right {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.7vw;
-}
-
-.featured_Articles_Right1 {
-}
-
-.featured_Articles_Right2 {
 }
 
 .featured_Articles_Box_Big {
@@ -313,9 +304,6 @@
   justify-content: center;
 }
 
-.category2_Child {
-}
-
 .category2_Title {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -336,9 +324,6 @@
   flex-direction: column;
 }
 
-.category1_Bottom_Right1 {
-}
-
 .advertisement {
   background-color: aquamarine;
   height: 63vh;
@@ -348,9 +333,6 @@
   justify-content: center;
   align-items: center;
   border: solid 1px black;
-}
-
-.category1_Bottom_Right2 {
 }
 
 /* Top Posts */
@@ -363,16 +345,10 @@
   margin-bottom: 2vw;
 }
 
-.topPosts_Bottom {
-}
-
 .topPosts_CardPrimary {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-}
-
-.cardPrimary_Top {
 }
 
 .cardPrimary_Image {
@@ -386,9 +362,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.cardPrimary_Bottom1 {
 }
 
 .cardPrimary_Bottom2 {
@@ -407,9 +380,6 @@
   padding-top: 1vw;
 }
 
-.cardSecondary_Left {
-}
-
 .cardSecondary_Image {
   height: 6vw;
   width: 6vw;
@@ -422,9 +392,6 @@
   flex-direction: row;
   align-items: center;
   gap: 1vw;
-}
-
-.cardSecondary_Right1 {
 }
 
 .cardSecondary_Title {
@@ -506,9 +473,6 @@
   gap: 1vw;
 }
 
-.CategoryPage_Left_Top {
-}
-
 .CategoryPage_Left_Bottom {
   box-sizing: border-box;
   display: flex;
@@ -529,12 +493,6 @@
   display: flex;
   flex-direction: column;
   gap: 1vw;
-}
-
-.CategoryPage_Right_Top {
-}
-
-.CategoryPage_Right_Bottom {
 }
 
 /*//////////*/
@@ -596,9 +554,6 @@
   align-items: center;
 }
 
-.Card_Top2_Left1 {
-}
-
 .Card_Top2_Left2 {
   box-sizing: border-box;
   display: flex;
@@ -619,15 +574,6 @@
   font-weight: 500;
   font-size: 17px;
   color: #404040;
-}
-
-.Card_Top2_Left2A {
-}
-
-.Card_Top2_Left2B {
-}
-
-.Card_Top2_Right {
 }
 
 .Article_Card_Middle {
@@ -669,9 +615,6 @@
   border-top: solid 1px silver;
   border-bottom: solid 1px silver;
   padding: 1vw 0;
-}
-
-.Article_Card_Bottom2A {
 }
 
 .Article_Card_Bottom2B {
