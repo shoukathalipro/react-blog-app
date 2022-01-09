@@ -24,7 +24,7 @@ export const BlogProvider = (props) => {
             "Title" : "Random Title8",
             "CategoryName"  : "Bollywood",
             "PublishedDate" : "Aug 21 2021",
-            "ImageAsset"    : "https://livewallpaperhd.com/wp-content/uploads/2019/09/Space-HD-Wallpaper.jpg",
+            "ImageAsset"    : "https://wallpaperaccess.com/full/514076.jpg",
             "BlogContent"   : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt.",
             "Likes"         : "502"
         },
