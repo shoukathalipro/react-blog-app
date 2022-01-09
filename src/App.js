@@ -32,3 +32,4 @@ export default App;
 // npm i react-router-dom
 
 // Total Amount Of Time Taken to Complete This Project = Approx. 33 Hrs & 46 Mins
+// There was ES-Lint related errors
