@@ -78,9 +78,6 @@
   transform: translateX(-50%);
 }
 
-.featured_Articles_Left {
-}
-
 .featured_Articles_Right {
   display: flex;
   flex-direction: column;
