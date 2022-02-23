@@ -5,6 +5,18 @@
   margin-top: 2vw;
 }
 
+/*///////////////////////////*/
+/* LoadingSpinner Component */
+
+.loading_Spinner {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
 /*///////////////////*/
 /* Header Component */
 
@@ -255,11 +267,12 @@
 }
 
 .category1_Title {
-  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 23px;
   font-weight: 500;
-  font-size: 25px;
   text-decoration: none;
-  color: black;
+  text-align: left;
 }
 
 .category1_BlogContent {
@@ -661,6 +674,7 @@
   display: flex;
   flex-direction: column;
   gap: 1vw;
+  width: 35%;
 }
 
 .Related_Content_Image {
@@ -792,7 +806,8 @@
   }
 
   .category1_Title {
-    font-size: 25px;
+    font-size: 21px;
+    text-align: left;
   }
 
   .category1_BlogContent {
@@ -924,5 +939,9 @@
     gap: 5vw;
     padding-top: 5vw;
     margin-bottom: 5vw;
+  }
+
+  .Related_Content_Card {
+    width: 100%;
   }
 }
